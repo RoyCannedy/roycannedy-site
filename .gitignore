@@ -1,1 +1,9 @@
+# Quarto output
+/_site/
 /.quarto/
+
+# RStudio
+.Rproj.user/
+
+# Mac
+.DS_Store
