@@ -1,0 +1,120 @@
+/* ===== Page width ===== */
+.content-sections {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ===== Section spacing ===== */
+.content-block {
+  margin-bottom: 60px;
+}
+
+.content-block h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* ===== Cards ===== */
+.card {
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 16px;
+  padding: 24px 24px;
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.06);
+  margin-bottom: 30px;
+}
+
+/* ===== Buttons ===== */
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0 12px 0;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: #f8fafc;
+  text-decoration: none;
+  font-weight: 650;
+  transition: all 0.15s ease;
+}
+
+.btn-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  text-decoration: none;
+}
+
+/* ===== Badge / Chip list for gigs ===== */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.badges li {
+  border: 1px solid rgba(0,0,0,0.10);
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 10px 14px;
+  line-height: 1.2;
+}
+
+.badges a {
+  text-decoration: none;
+  font-weight: 650;
+}
+
+/* ===== PDF embeds ===== */
+.pdf-embed {
+  width: 100%;
+  height: 650px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+/* ===== Resume box (keep yours nice) ===== */
+.resume-box {
+  margin-top: 40px;
+  border: 2px solid #333;
+  padding: 30px;
+  width: min(900px, 100%);
+  border-radius: 16px;
+}
+
+/* ===== Intro grid ===== */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 40px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 700px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .profile-pic {
+    width: 160px;
+    height: 160px;
+  }
+}

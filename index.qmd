@@ -1,0 +1,188 @@
+---
+title: "Roy Cannedy"
+format: html
+---
+
+<style>
+.hero-grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 40px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.intro-text{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #1f2937;
+  max-width: 56ch;
+  margin-top: 8px;
+}
+
+.resume-box {
+  margin-top: 40px;
+  border: 2px solid #333;
+  padding: 30px;
+  width: min(700px, 100%);
+}
+
+.content-sections {
+  max-width: 800px;
+}
+
+.content-block {
+  margin-bottom: 60px;
+}
+
+.content-block h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.content-block a {
+  display: inline-block;
+  margin-top: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.content-block a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .profile-pic { width: 160px; height: 160px; }
+}
+</style>
+
+<div class="hero-grid">
+
+![](Roy%20Cannedy.jpeg){.profile-pic alt="Roy Cannedy"}
+
+<div class="intro-text">
+I’m a Data Science student at Baylor who loves building things with data.
+My work sits at the intersection of research, real projects, and practical problem-solving.
+I’ve developed tools and models in R and Python, worked on Bayesian network research using beta divergence,
+built websites for organizations, and managed live sound production for large events.
+I enjoy taking projects from idea to execution and collaborating with people across different roles
+to turn messy data into clear, useful solutions.
+Whether it’s research, web development, audio production, or analytics,
+I’m driven by creating work that is both technically strong and meaningful in the real world.
+</div>
+
+</div>
+
+<div class="resume-box">
+  <h2>Resume</h2>
+
+  <iframe 
+    src="Roy_Cannedy_web.pdf" 
+    width="100%" 
+    height="700px"
+    style="border: 1px solid #ccc;">
+  </iframe>
+
+  <br><br>
+  <a href="Roy_Cannedy_web.pdf" target="_blank">Open Resume in New Tab</a>
+</div>
+
+
+<hr style="margin:60px 0;">
+
+<div class="content-sections">
+
+  <section class="content-block">
+    <h2>Research</h2>
+    <p>
+      My research focuses on Bayesian networks, chain event graphs, and alternative scoring methods using beta divergence. 
+      I work in R to build custom scoring functions and test how network structures change under contamination and uncertainty. 
+      This work connects theory with practical modeling and has led to posters, code repositories, and ongoing collaboration 
+      with faculty mentors. I enjoy exploring how statistical ideas can be turned into usable tools for real data problems.
+    </p>
+<a href="https://github.com/RoyCannedy" target="_blank" style="display:inline-block; margin-bottom:20px;">
+  GitHub
+</a>
+    <iframe 
+    src="beta_div_poster.pdf" 
+    width="100%" 
+    height="700px"
+    style="border: 1px solid #ccc;">
+  </iframe>
+
+  <br><br>
+  <a href="beta_div_poster.pdf" target="_blank">Open Poster in New Tab</a>
+</section>
+
+  <section class="content-block">
+    <h2>Web Development</h2>
+    <p>
+  I build practical websites and tools for organizations primarily using WordPress and Quarto. 
+  From managing and updating the TLPCA WordPress site to developing my own data-driven pages 
+  and tools in Quarto, I enjoy turning ideas into clean, functional interfaces. My focus is on 
+  usability, clarity, and creating sites that are easy to maintain while still looking professional 
+  and purposeful.
+</p>
+
+    </p>
+  <a href="https://tlpca.org/" target="_blank">TLPCA Website</a><br>
+  <a href="mailto:roycannedywebdev@gmail.com">Email for website development and WordPress/Quarto inquiries
+</a>
+  </section>
+
+<section class="content-block">
+  <h2>Sound Production</h2>
+
+  <p>
+    I run live audio production for churches, conferences, and large campus events, managing everything 
+    from stage setup to live mixing and teardown. This work has taught me logistics, teamwork, and 
+    staying calm under pressure while delivering a high-quality experience.
+  </p>
+
+  <ul style="margin-top:20px; line-height:1.9;">
+    <li>
+      <a href="https://www.fm72waco.com/" target="_blank">FM72</a> — Production Intern (Tent Production)
+    </li>
+    <li>
+      <a href="https://www.verticalministries.net/" target="_blank">Vertical Ministries</a> — Contracted Sound Engineering / Roadie Volunteer
+    </li>
+    <li>
+      <a href="https://harriscreek.org/" target="_blank">Harris Creek Church</a> — Sound Engineering / Production Volunteer
+    </li>
+    <li>
+      <a href="https://www.harriscreek.org/youth" target="_blank">Waco Weekender</a> — Contracted Sound Engineering
+    </li>
+    <li>
+      <a href="https://www.kamplove.org/kamps/baylor-university" target="_blank">Baylor Kamp Love</a> — Contracted Sound Engineering
+    </li>
+    <li>
+      <a href="https://www.pathwaywaco.com/" target="_blank">Pathway waco</a> — Contracted Sound Engineering
+    </li>
+    <li>
+      <a href="https://firstwaco.com/?gad_source=1&gad_campaignid=22908181918&gbraid=0AAAABAlhDQDRftDMj7cpKeISkdtY8u33j&gclid=Cj0KCQiAy6vMBhDCARIsAK8rOgk2hGQA2tzO20aBS8Sz7lWsuGtVL-hKzeR1W68iLglJDKSInrMsjAgaAvbrEALw_wcB" target="_blank">First Methodist Church Waco</a> — DNOW Event Sound Engineering
+    </li>
+      <li>
+    Phi Chi Baylor — Contracted Sound Engineering
+  </li>
+</ul>
+  </ul>
+
+  <br>
+  <a href="mailto:Roygcannedy@gmail.com">Email for event production and sound engineering inquiries</a>
+
+</section>
+
+
+
+
+</div>
